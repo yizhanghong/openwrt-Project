@@ -13,6 +13,7 @@
 rm -rf ./package/lean/luci-theme-argon
 rm -rf ./package/lean/v2ray
 rm -rf ./package/lean/v2ray-plugin
+rm -rf ./feeds/packages/net/smartdns
 # cp -r feeds/lienol/lienol/luci-app-passwall feeds/diy
 # cp -r feeds/lienol/package/{chinadns-ng,trojan-go,syncthing,tcping} feeds/diy/vssr
 # rm -rf ./feeds/{lienol,lienol.tmp}
