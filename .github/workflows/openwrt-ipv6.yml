@@ -17,8 +17,8 @@ on:
       - main
     paths:
       - 'ipv6.config'
-  schedule:
-    - cron: 0 21 */7 * *
+#  schedule:
+#    - cron: 0 21 */7 * *
 #  watch:
 #    types: started
 
