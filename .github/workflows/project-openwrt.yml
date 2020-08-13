@@ -16,9 +16,9 @@ on:
 #    branches:
 #      - main
 #    paths:
-#      - '4.config'
-#  schedule:
-#    - cron: 0 18 */3 * *
+#      - 'project.config'
+  schedule:
+    - cron: 0 18 */3 * *
 #  watch:
 #    types: started
 
