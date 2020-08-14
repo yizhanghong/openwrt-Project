@@ -16,3 +16,4 @@ sed -i '$a src-git diy https://github.com/firker/diy-ziyong' feeds.conf.default
 # sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 sed -i '/DTS_DIR:=$(LINUX_DIR)/a\BUILD_DATE_PREFIX := $(shell date +'%F')' ./include/image.mk
 sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(BUILD_DATE_PREFIX)-/g' ./include/image.mk
+sed -i 's/DISTRIB_DESCRIPTION='OpenWrt 18.06 by Lean '/DISTRIB_DESCRIPTION='OpenWrt '/g' ./include/image.mk
