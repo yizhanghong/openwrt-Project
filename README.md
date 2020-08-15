@@ -1,8 +1,8 @@
-# lede大openwrt-X86-64稳定版 & P3TERX大opwnert云编译脚本
+# OpenWrt18.06-X86-64稳定版云编译项目
 
-云编译脚本地址：[https://github.com/P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
+P3TERX云编译脚本地址：[https://github.com/P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
-固件源码地址：[https://github.com/coolsnowwolf/openwrt](https://github.com/coolsnowwolf/openwrt)
+lean固件源码地址：[https://github.com/coolsnowwolf/openwrt](https://github.com/coolsnowwolf/openwrt)
 
 lean稳定源码版本，内核为**4.19**版，分为***自用版、精简版***
 
@@ -12,7 +12,7 @@ lean稳定源码版本，内核为**4.19**版，分为***自用版、精简版**
 
 追新版云编译地址：[https://github.com/firker/openwrt-Exclusive](https://github.com/firker/openwrt-Exclusive)
 
-感谢各位大佬的源码。
+感谢所有openwrt固件源码作者以及所有插件源码作者。
 ## 精简版固件截图：
 ![avatar](boc/a.png)
 ## 自用版固件截图：
