@@ -20,7 +20,7 @@ lean稳定源码版本，内核为**4.19**版，分为***自用版、精简版**
 ## 下载方式：点击[Actions](https://github.com/firkerword/openwrt-stable-version/actions)  选择需要的版本
 ![avatar](boc/c.png)
 
-## [tg频道订阅](https://t.me/zhinengchaoshenzhe)
+## 联系[Tg频道订阅](https://t.me/zhinengchaoshenzhe)
 
 
 
