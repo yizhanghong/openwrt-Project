@@ -30,3 +30,4 @@ svn co https://github.com/xiaorouji/openwrt-package/trunk/package/tcping package
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-go package/trojan-go
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-plus package/trojan-plus
 svn co https://github.com/coolsnowwolf/packages/trunk/net/https-dns-proxy package/https-dns-proxys
+svn co https://github.com/xiaorouji/openwrt-package/trunk/package/naiveproxy package/naiveproxy
