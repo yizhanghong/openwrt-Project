@@ -10,7 +10,7 @@ lean固件源码地址：[https://github.com/coolsnowwolf/openwrt](https://githu
 
 ## 固件说明
 
-lean稳定源码版本，内核为**4.19**版，分为***自用版、精简版***
+lean稳定源码版本，内核为**4.19**版，分为***自用版（名称为openwrt-ZY）、精简版（名称为openwrt-jing）***
 
 不定时更新
 
