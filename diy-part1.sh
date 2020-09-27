@@ -23,6 +23,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-a
 svn co https://github.com/firker/diy-ziyong/trunk/smartdns package/smartdns
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lienol
+svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy package/lienol
 # svn co https://github.com/xiaorouji/openwrt-package/trunk/package/brook package/brook
 # svn co https://github.com/xiaorouji/openwrt-package/trunk/package/chinadns-ng package/chinadns-ng
 # svn co https://github.com/xiaorouji/openwrt-package/trunk/package/tcping package/tcping
