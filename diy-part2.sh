@@ -14,6 +14,7 @@ rm -rf ./package/lean/luci-theme-argon
 rm -rf ./package/lean/v2ray
 rm -rf ./package/lean/v2ray-plugin
 rm -rf ./feeds/packages/net/smartdns
+rm -rf ./feeds/packages/net/https-dns-proxy
 # curl -fsSL  https://raw.githubusercontent.com/Lienol/openwrt-packages/dev-19.07/net/https-dns-proxy/files/https-dns-proxy.init > ./feeds/packages/net/https-dns-proxy/files/https-dns-proxy.init
 # cp -r feeds/lienol/lienol/luci-app-passwall feeds/diy
 # cp -r feeds/lienol/package/{chinadns-ng,trojan-go,syncthing,tcping} feeds/diy/vssr
