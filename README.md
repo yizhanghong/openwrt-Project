@@ -10,7 +10,7 @@ lean固件源码地址：[https://github.com/coolsnowwolf/openwrt](https://githu
 
 ## 固件说明
 
-lean稳定源码版本，内核为**4.19**版，分为***自用版（名称为openwrt-ZY）、精简版（名称为openwrt-jing）***
+lean稳定源码版本，内核为**4.19**版，分为***自用版（openwrt-ZY）、精简版（openwrt-jing）***
 
 不定时更新
 
@@ -19,18 +19,17 @@ lean稳定源码版本，内核为**4.19**版，分为***自用版（名称为op
 ## 固件下载
 
 ### 点击[Actions](https://github.com/firkerword/openwrt-stable-version/actions)  选择需要的版本
-![avatar](boc/c.png)
+![avatar](https://raw.githubusercontent.com/firkerword/openwrt-stable-version/main/boc/c.png)
 
-## 固件截图
-
+## 固件截图：
 ### 精简版固件截图：
-![avatar](boc/a.png)
+![avatar](https://raw.githubusercontent.com/firkerword/openwrt-stable-version/main/boc/a.png)
 ### 自用版固件截图：
-![avatar](boc/b.png)
+![avatar](https://raw.githubusercontent.com/firkerword/openwrt-stable-version/main/boc/b.png)
 
 ### 其他
 
-[Tg频道订阅](https://t.me/zhinengchaoshenzhe)
+联系：[Tg频道订阅](https://t.me/zhinengchaoshenzhe)
 
 追新版云编译地址：[https://github.com/firker/openwrt-Exclusive](https://github.com/firker/openwrt-Exclusive)
 
