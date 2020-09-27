@@ -6,7 +6,7 @@ P3TERX云编译脚本地址：[https://github.com/P3TERX/Actions-OpenWrt](https:
 
 lean固件源码地址：[https://github.com/coolsnowwolf/openwrt](https://github.com/coolsnowwolf/openwrt)
 
-感谢所有openwrt固件源码作者以及所有插件源码作者。
+由衷感谢所有为openwrt无私奉献的大佬们。
 
 ## 固件说明
 
