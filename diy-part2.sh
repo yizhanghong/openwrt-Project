@@ -15,8 +15,10 @@ rm -rf ./package/lienol/v2ray
 rm -rf ./package/lienol/v2ray-plugin
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/https-dns-proxy
-curl -fsSL  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray-plugin/Makefile > ./package/lean/v2ray-plugin/Makefile
-curl -fsSL  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray/Makefile > ./package/lean/v2ray/Makefile
+wget  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray/Makefile -O ./package/lean/v2ray/Makefile
+wget  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray-plugin/Makefile -O ./package/lean/v2ray-plugin/Makefile
+# curl -fsSL  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray-plugin/Makefile > ./package/lean/v2ray-plugin/Makefile
+# curl -fsSL  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray/Makefile > ./package/lean/v2ray/Makefile
 # curl -fsSL  https://raw.githubusercontent.com/Lienol/openwrt-packages/dev-19.07/net/https-dns-proxy/files/https-dns-proxy.init > ./feeds/packages/net/https-dns-proxy/files/https-dns-proxy.init
 # cp -r feeds/lienol/lienol/luci-app-passwall feeds/diy
 # cp -r feeds/lienol/package/{chinadns-ng,trojan-go,syncthing,tcping} feeds/diy/vssr
