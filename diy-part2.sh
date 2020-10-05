@@ -15,8 +15,8 @@ rm -rf ./package/lienol/v2ray
 rm -rf ./package/lienol/v2ray-plugin
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/https-dns-proxy
-wget  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray/Makefile -O ./package/lean/v2ray/Makefile
-wget  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray-plugin/Makefile -O ./package/lean/v2ray-plugin/Makefile
+wget  https://raw.githubusercontent.com/coolsnowwolf/lede/master/package/lean/v2ray/Makefile -O ./package/lean/v2ray/Makefile
+wget  https://raw.githubusercontent.com/coolsnowwolf/lede/master/package/lean/v2ray-plugin/Makefile -O ./package/lean/v2ray-plugin/Makefile
 # curl -fsSL  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray-plugin/Makefile > ./package/lean/v2ray-plugin/Makefile
 # curl -fsSL  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray/Makefile > ./package/lean/v2ray/Makefile
 # curl -fsSL  https://raw.githubusercontent.com/Lienol/openwrt-packages/dev-19.07/net/https-dns-proxy/files/https-dns-proxy.init > ./feeds/packages/net/https-dns-proxy/files/https-dns-proxy.init
