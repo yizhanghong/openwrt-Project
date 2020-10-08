@@ -15,6 +15,7 @@ rm -rf ./package/lienol/v2ray
 rm -rf ./package/lienol/v2ray-plugin
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/https-dns-proxy
+wget  https://raw.githubusercontent.com/coolsnowwolf/packages/master/lang/golang/golang/Makefile -O .feeds/packages/lang/golang/golang/Makefile
 wget  https://raw.githubusercontent.com/coolsnowwolf/lede/master/package/lean/v2ray/Makefile -O ./package/lean/v2ray/Makefile
 wget  https://raw.githubusercontent.com/coolsnowwolf/lede/master/package/lean/v2ray-plugin/Makefile -O ./package/lean/v2ray-plugin/Makefile
 # curl -fsSL  https://raw.githubusercontent.com/firkerword/v2fly/master/v2ray-plugin/Makefile > ./package/lean/v2ray-plugin/Makefile
