@@ -180,13 +180,13 @@ jobs:
       uses: c-hive/gha-remove-artifacts@v1.2.0
       with:
         age: '1 day'
-        skip-recent: 3
+        skip-recent: 2
 
     - name: 删除旧的Releases
       uses: dev-drprasad/delete-older-releases@v0.1.0
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       with:
-        keep_latest: 3
+        keep_latest: 2
         delete_tags: true
       env:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
