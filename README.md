@@ -18,7 +18,7 @@ lean稳定源码版本，内核为**4.19**版，分为***自用版（openwrt-ZY�
 
 ## 固件下载
 
-### 点击[Actions](https://github.com/firkerword/openwrt-stable-version/actions)  选择需要的版本
+### 点击[Actions](https://github.com/firkerword/openwrt-stable-version/actions) 或者[releases](https://github.com/firkerword/openwrt-stable-version/releases) 选择需要的版本
 ![avatar](https://raw.githubusercontent.com/firkerword/openwrt-stable-version/main/boc/c.png)
 
 ## 固件截图：
