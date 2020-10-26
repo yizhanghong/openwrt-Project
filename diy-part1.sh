@@ -26,6 +26,7 @@ svn co https://github.com/firker/diy-ziyong/trunk/smartdns package/smartdns
 svn co https://github.com/firker/diy-ziyong/trunk/vssr/https-dns-proxy package/https-dns-proxy
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lienol
+svn co https://github.com/openwrt/packages/trunk/libs/libcap feeds/packages/libs/libcap
 # svn co https://github.com/xiaorouji/openwrt-package/trunk/package/brook package/brook
 # svn co https://github.com/xiaorouji/openwrt-package/trunk/package/chinadns-ng package/chinadns-ng
 # svn co https://github.com/xiaorouji/openwrt-package/trunk/package/tcping package/tcping
