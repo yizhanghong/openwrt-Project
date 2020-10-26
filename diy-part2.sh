@@ -27,6 +27,7 @@ rm -rf ./package/lean/v2ray-plugin
 rm -rf ./package/lean/luci-theme-argon
 rm -rf ./package/lienol/v2ray
 rm -rf ./package/lienol/v2ray-plugin
+rm -rf ./package/network/utils/iproute2
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/https-dns-proxy
 rm -rf ./feeds/packages/libs/libcap
@@ -36,3 +37,4 @@ svn co https://github.com/openwrt/packages/trunk/libs/libcap feeds/packages/libs
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray package/lean/v2ray
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray-plugin package/lean/v2ray-plugin
 svn co https://github.com/coolsnowwolf/packages/trunk/lang/golang feeds/packages/lang/golang
+svn co https://github.com/coolsnowwolf/lede/trunk/package/network/utils/iproute2 package/network/utils/iproute2
