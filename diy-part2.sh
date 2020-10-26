@@ -21,9 +21,8 @@ wget  https://raw.githubusercontent.com/coolsnowwolf/lede/master/package/lean/v2
 # cp -r feeds/lienol/lienol/luci-app-passwall feeds/diy
 # cp -r feeds/lienol/package/{chinadns-ng,trojan-go,syncthing,tcping} feeds/diy/vssr
 # rm -rf ./feeds/{lienol,lienol.tmp}
-# rm -rf ./feeds/packages/libs/libcap/patches/100-portability.patch
-# rm -rf ./feeds/packages/libs/libcap/patches/200-change-hardcoded-shell-to-sh.patch
-
+rm -rf ./package/lean/v2ray
+rm -rf ./package/lean/v2ray-plugin
 rm -rf ./package/lean/luci-theme-argon
 rm -rf ./package/lienol/v2ray
 rm -rf ./package/lienol/v2ray-plugin
@@ -32,3 +31,5 @@ rm -rf ./feeds/packages/net/https-dns-proxy
 rm -rf ./feeds/packages/libs/libcap
 
 svn co https://github.com/openwrt/packages/trunk/libs/libcap feeds/packages/libs/libcap
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray package/lean/v2ray
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray-plugin package/lean/v2ray-plugin
