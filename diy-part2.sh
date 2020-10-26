@@ -35,4 +35,4 @@ rm -rf ./feeds/packages/lang/golang
 svn co https://github.com/openwrt/packages/trunk/libs/libcap feeds/packages/libs/libcap
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray package/lean/v2ray
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray-plugin package/lean/v2ray-plugin
-svn co https://github.com/coolsnowwolf/packages/trunk/packages/lang/golang feeds/packages/lang/golang
+svn co https://github.com/coolsnowwolf/packages/trunk/lang/golang feeds/packages/lang/golang
