@@ -13,6 +13,7 @@
 
 rm -rf ./package/lean/luci-theme-argon
 rm -rf ./feeds/packages/net/smartdns
-
+rm -rf ./feeds/diy/luci-app-vssr-plus
+rm -rf ./feeds/diy/vssr
 
 
