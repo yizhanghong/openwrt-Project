@@ -10,6 +10,8 @@ Project固件源码地址：[https://github.com/immortalwrt/immortalwrt](https:/
 
 ## 固件说明
 
+immortalwrt源码版本，内核为***5.4***版
+
 openwrt-Project源码版本，***openwrt-21.02***
 
 不定时更新
