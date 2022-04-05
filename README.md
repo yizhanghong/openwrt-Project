@@ -4,13 +4,13 @@
 
 P3TERX云编译脚本地址：[https://github.com/P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
-lean固件源码地址：[https://github.com/coolsnowwolf/openwrt](https://github.com/coolsnowwolf/openwrt)
+Project固件源码地址：[https://github.com/immortalwrt/immortalwrt](https://github.com/immortalwrt/immortalwrt)
 
 由衷感谢所有为openwrt无私奉献的大佬们。
 
 ## 固件说明
 
-lean稳定源码版本，内核为**4.19**版，分为***自用版（openwrt-ZY）、精简版（openwrt-jing）***
+openwrt-Project源码版本，***openwrt-21.02***
 
 不定时更新
 
@@ -18,14 +18,9 @@ lean稳定源码版本，内核为**4.19**版，分为***自用版（openwrt-ZY�
 
 ## 固件下载
 
-### 点击[Actions](https://github.com/firkerword/openwrt-stable-version/actions) 或者[Releases](https://github.com/firkerword/openwrt-stable-version/releases) 选择需要的版本
+### 点击[Actions](https://github.com/firkerword/openwrt-Project/actions) 或者[Releases](https://github.com/firkerword/openwrt-Project/releases) 选择需要的版本
 ![avatar](https://raw.githubusercontent.com/firkerword/openwrt-stable-version/main/boc/c.png)
 
-## 固件截图：
-### 精简版固件截图：
-![avatar](https://raw.githubusercontent.com/firkerword/openwrt-stable-version/main/boc/a.png)
-### 自用版固件截图：
-![avatar](https://raw.githubusercontent.com/firkerword/openwrt-stable-version/main/boc/b.png)
 
 ### 其他
 
