@@ -7,16 +7,14 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #============================================================
+# sed -i '/DTS_DIR:=$(LINUX_DIR)/a\BUILD_DATE_PREFIX := $(shell date +'%F')' ./include/image.mk
+# sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(BUILD_DATE_PREFIX)-/g' ./include/image.mk
+# curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm 
+# curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
+# curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/logo.jpg > .package/luci-app-serverchan/root/usr/bin/serverchan/api/logo.jpg
 # Modify default IP
-
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-
-rm -rf ./package/lean/luci-theme-argon
-rm -rf ./package/openwrt-passwall/v2ray-plugin
-rm -rf ./package/openwrt-passwall/v2ray
-rm -rf ./feeds/packages/net/https-dns-proxy
+# sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+rm -rf ./feeds/luci/themes/luci-theme-argon
+rm -rf ./package/diy-ziyong/adguardhome
+rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
-rm -rf ./feeds/diy/luci-app-vssr-plus
-rm -rf ./feeds/diy/vssr
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
-
