@@ -23,12 +23,13 @@ openwrt-Project源码版本，***openwrt-21.02***
 ### 点击[Actions](https://github.com/firkerword/openwrt-Project/actions/workflows/openwrt-Project.yml) 或者[Releases](https://github.com/firkerword/openwrt-Project/releases) 选择需要的版本
 ![avatar](https://raw.githubusercontent.com/firkerword/openwrt-stable-version/main/boc/c.png)
 
-
+## 固件截图：
+![avatar](https://raw.githubusercontent.com/firkerword/openwrt-Project/main/boc/03.jpg)
 ### 其他
 
 联系：[Tg频道订阅](https://t.me/zhinengchaoshenzhe)
 
-追新版云编译地址：[https://github.com/firker/openwrt-Exclusive](https://github.com/firker/openwrt-Exclusive)
+自用版云编译地址：[https://github.com/firkerword/openwrt-Exclusive](https://github.com/firkerword/openwrt-Exclusive)
 
 
 
