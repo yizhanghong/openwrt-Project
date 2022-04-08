@@ -31,7 +31,7 @@ openwrt-Project源码版本，***openwrt-21.02***
 
 联系：[Tg频道订阅](https://t.me/zhinengchaoshenzhe)
 
-自用版云编译地址：[https://github.com/firkerword/openwrt-Exclusive](https://github.com/firkerword/openwrt-Exclusive)
+稳定自用版云编译地址：[https://github.com/firkerword/openwrt-Exclusive](https://github.com/firkerword/openwrt-Exclusive)
 
 
 
