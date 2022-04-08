@@ -6,6 +6,8 @@ P3TERX云编译脚本地址：[https://github.com/P3TERX/Actions-OpenWrt](https:
 
 Project固件源码地址：[https://github.com/immortalwrt/immortalwrt](https://github.com/immortalwrt/immortalwrt)
 
+istore应用商店地址：[https://github.com/linkease/istore](https://github.com/linkease/istore)
+
 由衷感谢所有为openwrt无私奉献的大佬们。
 
 ## 固件说明
