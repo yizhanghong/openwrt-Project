@@ -13,6 +13,7 @@
 # curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm 
 # curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
 # curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/logo.jpg > .package/luci-app-serverchan/root/usr/bin/serverchan/api/logo.jpg
+# curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yaml > ./package/openwrt-mos/luci-app-mosdns/root/etc/mosdns/cus_config.yaml
 # Modify default IP
 # sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
@@ -21,3 +22,4 @@ rm -rf ./package/diy-ziyong/theme
 # rm -rf ./package/diy-ziyong/adguardhome
 rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
+rm -rf ./feeds/packages/net/mosdns
