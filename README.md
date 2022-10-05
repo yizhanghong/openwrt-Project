@@ -4,7 +4,7 @@
 
 P3TERX云编译脚本地址：[https://github.com/P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
-Lienol固件源码地址：https://github.com/Lienol/openwrt](https://github.com/Lienol/openwrt)
+Lienol固件源码地址：[https://github.com/Lienol/openwrt](https://github.com/Lienol/openwrt)
 
 Project固件源码地址：[https://github.com/immortalwrt/immortalwrt](https://github.com/immortalwrt/immortalwrt)
 
