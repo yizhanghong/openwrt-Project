@@ -4,9 +4,9 @@
 
 P3TERX云编译脚本地址：[https://github.com/P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
-Project固件源码地址：[https://github.com/immortalwrt/immortalwrt](https://github.com/immortalwrt/immortalwrt)
+Lienol固件源码地址：https://github.com/Lienol/openwrt](https://github.com/Lienol/openwrt)
 
-istore应用商店地址：[https://github.com/linkease/istore](https://github.com/linkease/istore)
+Project固件源码地址：[https://github.com/immortalwrt/immortalwrt](https://github.com/immortalwrt/immortalwrt)
 
 由衷感谢所有为openwrt无私奉献的大佬们。
 
