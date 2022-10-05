@@ -20,8 +20,8 @@ curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yam
 sed -i 's/bootstrap/argon/g' ./feeds/luci/modules/luci-base/root/etc/config/luci
 rm -rf ./package/diy-ziyong/theme
 # rm -rf ./package/diy-ziyong/adguardhome
-rm -rf ./feeds/openwrt-luci/themes/luci-theme-argon
-rm -rf ./feeds/openwrt-packages/net/adguardhome
-rm -rf ./feeds/openwrt-packages/net/smartdns
-rm -rf ./feeds/openwrt-packages/net/mosdns
+rm -rf ./feeds/luci/themes/luci-theme-argon
+rm -rf ./feeds/packages/net/adguardhome
+rm -rf ./feeds/packages/net/smartdns
+rm -rf ./feeds/packages/net/mosdns
 
