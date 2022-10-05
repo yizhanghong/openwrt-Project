@@ -32,6 +32,6 @@ git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
 git clone https://github.com/linkease/istore.git package/istore
 git clone https://github.com/linkease/istore-ui.git package/istore-ui
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-svn co https://github.com/coolsnowwolf/packages/net/redsocks2 package/redsocks2
+svn co https://github.com/coolsnowwolf/packages/trunk/net/redsocks2 package/redsocks2
 # svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
