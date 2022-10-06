@@ -28,7 +28,9 @@ openwrt-Project源码版本，***openwrt-21.02***
 ![avatar](https://raw.githubusercontent.com/firkerword/openwrt-stable-version/main/boc/c.png)
 
 ## 固件截图：
-![avatar](https://raw.githubusercontent.com/firkerword/openwrt-Project/main/boc/03.jpg)
+![21.02](https://raw.githubusercontent.com/firkerword/openwrt-Project/main/boc/22.01.png)
+![21.02](https://raw.githubusercontent.com/firkerword/openwrt-Project/main/boc/22.02.png)
+![21.02](https://raw.githubusercontent.com/firkerword/openwrt-Project/main/boc/22.03.png)
 ### 其他
 
 联系：[Tg频道订阅](https://t.me/zhinengchaoshenzhe)
