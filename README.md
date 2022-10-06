@@ -14,9 +14,9 @@ istoreOS源码地址: https://github.com/istoreos
 
 ## 固件说明
 
-immortalwrt源码版本，内核为***5.4***版
+源码内核版本，***5.4***版
 
-openwrt-Project源码版本，***openwrt-21.02***
+openwrt源码版本，***openwrt-21.02***
 
 不定时更新，默认周更
 
