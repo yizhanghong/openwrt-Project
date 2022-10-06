@@ -8,7 +8,7 @@
 # Blog: https://p3terx.com
 #============================================================
 sed -i '/DTS_DIR:=$(LINUX_DIR)/a\BUILD_DATE_PREFIX := $(shell date +'%F')' ./include/image.mk
-sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=LienolOS-$(BUILD_DATE_PREFIX)-/g' ./include/image.mk
+sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(BUILD_DATE_PREFIX)-/g' ./include/image.mk
 
 # curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm 
 # curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
@@ -25,4 +25,3 @@ rm -rf ./feeds/luci/themes/luci-theme-argon
 rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/mosdns
-
