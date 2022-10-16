@@ -36,7 +36,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
 
     steps:
     - name: 检查项目分支
@@ -163,6 +163,7 @@ jobs:
     - name: 发布至release
       id: release
       uses: ncipollo/release-action@v1
+      if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       with:
         name: ${{ env.FILE_TIME }} 「 openwrt-Project-X86-64 」
         allowUpdates: true
