@@ -20,7 +20,7 @@ curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yam
 
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
 rm -rf ./package/diy-ziyong/theme
-rm -rf ./package/diy-ziyong/luci-app-wrtbwmon
+rm -rf ./package/diy-ziyong/luci-app-wrtbwmon-zh
 rm -rf ./package/diy-ziyong/wrtbwmon
 # rm -rf ./package/diy-ziyong/adguardhome
 rm -rf ./feeds/packages/net/adguardhome
