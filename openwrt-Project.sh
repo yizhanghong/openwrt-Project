@@ -33,3 +33,5 @@ git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 # svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-adbyby-plus package/luci-app-adbyby-plus
 # svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-wrtbwmon package/luci-app-wrtbwmon
+svn co https://github.com/kiddin9/openwrt-packages/trunk/wrtbwmon package/wrtbwmon
