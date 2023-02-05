@@ -23,20 +23,13 @@ sed -i '$a src-git nas_luci https://github.com/linkease/nas-packages-luci.git;ma
 # git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/fw876/helloworld.git package/ssr
 git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
-# git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-# git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
-# git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
-# git clone https://github.com/dwj0/luci-app-sms-tool.git package/luci-app-sms-tool
 git clone https://github.com/linkease/istore.git package/istore
 git clone https://github.com/linkease/istore-ui.git package/istore-ui
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
 git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
 git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 # svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-adbyby-plus package/luci-app-adbyby-plus
 # svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-wrtbwmon package/luci-app-wrtbwmon
-svn co https://github.com/kiddin9/openwrt-packages/trunk/wrtbwmon package/wrtbwmon
