@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: openwrt-Project
+name: openwrt-immortalwrt
 
 on:
   repository_dispatch:
