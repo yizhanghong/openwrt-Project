@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: openwrt-Project.config
+  CONFIG_FILE: openwrt-immortalwrt.config
   DIY_P1_SH: openwrt-Project.sh
   DIY_P2_SH: openwrt-Project2.sh
   SSH_ACTIONS: false
