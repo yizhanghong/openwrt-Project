@@ -29,6 +29,10 @@ git clone https://github.com/linkease/istore.git package/istore
 git clone https://github.com/linkease/istore-ui.git package/istore-ui
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
+find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
+find ./ | grep Makefile | grep mosdns | xargs rm -f
+git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
+git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-adbyby-plus package/luci-app-adbyby-plus
 # svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
