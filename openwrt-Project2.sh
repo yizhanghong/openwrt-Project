@@ -28,3 +28,5 @@ rm -rf ./feeds/packages/net/mosdns
 # rm -rf ./feeds/luci/applications/luci-app-ssr-plus
 # rm -rf ./feeds/luci/applications/luci-app-openclash
 # rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
+rm -rf ./feeds/packages/lang/golang
+svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
