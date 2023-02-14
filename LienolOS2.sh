@@ -26,5 +26,5 @@ rm -rf ./feeds/luci/themes/luci-theme-argon
 rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/mosdns
-rm -rf feeds/packages/lang/golang
+rm -rf ./feeds/packages/lang/golang
 svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
