@@ -20,4 +20,4 @@ svn co https://github.com/openwrt/packages/branches/openwrt-21.02/libs/libcap/ f
 rm -rf feeds/packages/net/miniupnpd
 svn co https://github.com/coolsnowwolf/packages/trunk/net/miniupnpd feeds/packages/net/miniupnpd
 rm -rf feeds/luci/applications/luci-app-upnp
-https://github.com/coolsnowwolf/luci/tree/master/applications/luci-app-upnp feeds/luci/applications/luci-app-upnp
+https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-upnp feeds/luci/applications/luci-app-upnp
