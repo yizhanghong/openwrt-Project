@@ -25,7 +25,7 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-pass
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
 find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 find ./ | grep Makefile | grep mosdns | xargs rm -f
-git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
+git clone https://github.com/firker/mosdns package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-poweroff package/luci-app-poweroff
