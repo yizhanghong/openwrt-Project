@@ -189,5 +189,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
     - name: TG推送
-      run: curl "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=恭喜主人X86-lienol1907固件编译完成！%0A编译时间：${{ env.DATE }}%0A下载地址：https://github.com/firkerword/openwrt-Exclusive/releases/tag/${{ env.TAG_TIME }}"
+      run: curl "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=恭喜主人X86-lienol1907固件编译完成！%0A编译时间：${{ env.DATE }}%0A下载地址：https://github.com/firkerword/openwrt-Project/releases/tag/${{ env.TAG_TIME }}"
 
