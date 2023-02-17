@@ -29,3 +29,4 @@ git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-poweroff package/luci-app-poweroff
+svn co https://github.com/NueXini/NueXini_Packages/trunk/luci-app-openvpn-server package/luci-app-openvpn-server
