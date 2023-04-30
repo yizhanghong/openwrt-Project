@@ -18,7 +18,7 @@ istoreOS源码地址: https://github.com/istoreos
 
 openwrt源码版本，***openwrt-21.02***
 
-不支持IPV6
+支持IPV6
 
 不定时更新，默认周更
 
