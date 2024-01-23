@@ -35,9 +35,6 @@ git clone https://github.com/linkease/istore.git package/istore
 git clone https://github.com/linkease/istore-ui.git package/istore-ui
 git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
 git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
-svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-# svn co https://github.com/coolsnowwolf/packages/trunk/net/redsocks2 package/redsocks2
-# svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
-# svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-wrtbwmon package/luci-app-wrtbwmon
-svn co https://github.com/kiddin9/openwrt-packages/trunk/wrtbwmon package/wrtbwmon
+merge_package https://github.com/messense/aliyundrive-webdav aliyundrive-webdav/openwrt applications/aliyundrive-webdav
+merge_package https://github.com/vernesong/OpenClash OpenClash/luci-app-openclash
+merge_package master https://github.com/kiddin9/openwrt-packages package/openwrt-packages luci-app-wrtbwmon wrtbwmon
