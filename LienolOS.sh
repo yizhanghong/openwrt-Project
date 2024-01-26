@@ -51,5 +51,5 @@ git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
 git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 merge_package https://github.com/messense/aliyundrive-webdav aliyundrive-webdav/openwrt applications/aliyundrive-webdav
 merge_package https://github.com/vernesong/OpenClash OpenClash/luci-app-openclash
-merge_package master https://github.com/kiddin9/openwrt-packages package/openwrt-packages luci-app-wrtbwmon wrtbwmon
-merge_package master https://github.com/kiddin9/openwrt-packages package/openwrt-packages wrtbwmon
+merge_package master https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
+merge_package master https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
