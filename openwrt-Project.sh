@@ -54,4 +54,5 @@ git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-adbyby-plus package/luci-app-adbyby-plus
 # svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
-merge_package master https://github.com/kiddin9/openwrt-packages package/openwrt-packages luci-app-wrtbwmon wrtbwmon
+merge_package master https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
+merge_package master https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
